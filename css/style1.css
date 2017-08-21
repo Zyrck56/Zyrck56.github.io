@@ -40,29 +40,43 @@ h2 {
     font-family: arial;
     padding: 2% 5%;
 }
-a {
+
+a.link-heading {
     padding: 0 15px;
     color: white;
 }
 
-a:link {
+a.link-heading:link, a.links:link {
     text-decoration: none;
 }
 
-a:visited {
+a.link-heading:visited, a.links:visited {
     text-decoration: none;
 }
 
-a:hover {
+a.link-heading:hover {
     text-decoration: underline dashed;
 }
 
-a:active {
+a.link-heading:active {
     text-decoration: underline;
 }
 
+a.links {
+    color: Blue;
+    padding: 0% 0%;
+    display: inline;
+}
+
+.thumbnail {
+    padding: 0% 5%;
+    display: inline;
+    
+
+}
 
 p {
     padding: 0% 5%;
     font-family: sans-serif;
 }
+
