@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 21, 2017, 7:04:46 PM
+    Author     : Thomas
+*/
+#home-picture {
+    background-image: url("../assets/capacitor.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+#index-link {
+    text-decoration: underline;
+}
+
+.about {
+    margin: 1px auto;
+    padding: 0% 5%;
+    font-family: sans-serif;
+    max-width: 1000px;
+    line-height: 1.3em;
+    color: #666666
+}
+
+.thumbnail, a.links {
+    padding: 0px 2px 0px 0px;
+    display: inline;
+}
+
+a.links, a {
+    color: #3399ff;
+}
+
+a.links:link { 
+    text-decoration: none;
+}
+
+a.links:visited, a {
+    text-decoration: none;
+}
+
+a.links:hover {
+    text-decoration: none;
+}
+
+a.links:active {
+    text-decoration: none;
+}

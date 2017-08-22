@@ -7,17 +7,19 @@ and open the template in the editor.
 <html>
     <head>
         <title>Thomas Hagen - Home</title>
-        <link rel="stylesheet" type="text/css" href="css/style1.css"/>
-        <link href="https://fonts.googleapis.com/css?family=Roboto:100" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="css/index.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100" 
+              type="text/css" rel="stylesheet">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div class="cover">
+        <div id="home-picture" class="cover">
             <h1 class="name-heading">Thomas Hagen</h1>
                 <div class="link-heading">
-                    <a href="index.html" style="text-decoration: underline;"
-                       class="link-heading">Home</a>
+                    <a id="index-link" href="index.html" class="link-heading">
+                        Home</a>
                     <a href="html/projects.html" class="link-heading">Projects</a>
                     <a href="html/resume.html" class="link-heading">Resume</a>
                     <a href="html/contact.html" class="link-heading">Contact</a>
@@ -25,7 +27,7 @@ and open the template in the editor.
         </div>
         <div class="about">
             <h2>About me</h2>
-            <p>My name is Thomas Hagen and I am a graduate of the University of 
+            <p id="bio">My name is Thomas Hagen and I am a graduate of the University of 
                Idaho, where I earned a bachelor's degree in computer science, 
                and a minor in mathematics. In my projects tab you can find all 
                about the things I'm interested in, which include 
@@ -34,15 +36,16 @@ and open the template in the editor.
                be spent teaching computers, coding, and web design at Kamp 
                Kohut, a prestigious summer camp located in Oxford, Maine. 
             </p>
-        </div>
-        <div class="links">
-            <img src="assets/LinkedInLogo.png" alt="linkedinlogo" 
-                 class="thumbnail" width="14" height="14"/>
-            <a href="https://www.linkedin.com/in/thomasghagen/" class="links">
+            <a href="https://www.linkedin.com/in/thomasghagen/">
+                <img src="assets/Logo-LinkedIn-500x500.jpg" alt="linkedinlogo" 
+                    class="links" width="14" height="14"/>
                 LinkedIn</a>
-            <img src="assets/GitHubLogo.png" alt="githublogo" class="thumbnail"
-                 width="14" height="14"/>
-            <a href="https://github.com/Zyrck56" class="links">GitHub</a>
+            <br>
+            
+            <a href="https://github.com/Zyrck56">
+                <img src="assets/GitHubLogo.png" alt="githublogo" 
+                    class="links" width="14" height="14"/>
+                <span>GitHub</span></a>
             
         </div>
     </body>

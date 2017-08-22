@@ -8,13 +8,10 @@ and open the template in the editor.
     Author     : Thomas
 */
 
-.cover {
-    background-image: url("../assets/capacitor.jpg");
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    
+* {
+    /*border: solid thin;*/
 }
+
 .name-heading {
     padding: 10% 0% 1% 0%;
     text-align: center;
@@ -38,7 +35,6 @@ h1, a {
 
 h2 {
     font-family: arial;
-    padding: 2% 5%;
 }
 
 a.link-heading {
@@ -46,11 +42,11 @@ a.link-heading {
     color: white;
 }
 
-a.link-heading:link, a.links:link {
+a.link-heading:link {
     text-decoration: none;
 }
 
-a.link-heading:visited, a.links:visited {
+a.link-heading:visited {
     text-decoration: none;
 }
 
@@ -62,21 +58,7 @@ a.link-heading:active {
     text-decoration: underline;
 }
 
-a.links {
-    color: Blue;
-    padding: 0% 0%;
-    display: inline;
-}
 
-.thumbnail {
-    padding: 0% 5%;
-    display: inline;
-    
 
-}
 
-p {
-    padding: 0% 5%;
-    font-family: sans-serif;
-}
 
