@@ -18,14 +18,7 @@ and open the template in the editor.
     text-decoration: underline;
 }
 
-.about {
-    margin: 1px auto;
-    padding: 0% 5%;
-    font-family: sans-serif;
-    max-width: 1000px;
-    line-height: 1.3em;
-    color: #666666
-}
+
 
 .thumbnail, a.links {
     padding: 0px 2px 0px 0px;
@@ -34,6 +27,8 @@ and open the template in the editor.
 
 a.links, a {
     color: #3399ff;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 a.links:link { 

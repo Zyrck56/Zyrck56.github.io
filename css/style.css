@@ -37,6 +37,15 @@ h2 {
     font-family: arial;
 }
 
+.subtext {
+    margin: 1px auto;
+    padding: 0% 5%;
+    font-family: sans-serif;
+    max-width: 1000px;
+    line-height: 1.3em;
+    color: #666666
+}
+
 a.link-heading {
     padding: 0 15px;
     color: white;
