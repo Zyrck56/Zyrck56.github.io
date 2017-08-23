@@ -53,3 +53,7 @@ figcaption {
     font-weight: bold;
     text-align: center;
 }
+
+#xbee, #arduino{
+    border: none;
+}
