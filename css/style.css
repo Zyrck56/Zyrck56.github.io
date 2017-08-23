@@ -9,7 +9,7 @@ and open the template in the editor.
 */
 
 * {
-    /*border: solid thin;*/
+    border: solid thin;
 }
 
 .name-heading {
@@ -67,7 +67,10 @@ a.link-heading:active {
     text-decoration: underline;
 }
 
-
+.figcaption {
+    text-align: center;
+    font-family: sans-serif;
+}
 
 
 
