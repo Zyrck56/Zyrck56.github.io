@@ -18,8 +18,6 @@ and open the template in the editor.
     text-decoration: underline;
 }
 
-
-
 .thumbnail, a.links {
     padding: 0px 2px 0px 0px;
     display: inline;
@@ -45,4 +43,10 @@ a.links:hover {
 
 a.links:active {
     text-decoration: none;
+}
+
+body {
+    min-width: 950px;
+    width: auto !important;
+    width: 950px;
 }

@@ -24,3 +24,9 @@ object {
     width: 900px;
     height: 850px;
 }
+
+body {
+    min-width: 950px;
+    width: auto !important;
+    width: 950px;
+}

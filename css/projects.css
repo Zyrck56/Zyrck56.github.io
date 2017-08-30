@@ -75,3 +75,9 @@ img {
 #quadcopter {
     
 }
+
+body {
+    min-width: 950px;
+    width: auto !important;
+    width: 950px;
+}
