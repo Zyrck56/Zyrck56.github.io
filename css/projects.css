@@ -51,7 +51,7 @@ img {
 .caption-third {
     width: 30%;
     margin-right: 1%;
-    margin-bottom: 1em;
+    margin-bottom: 3em;
     font-size: 12px;
     font-weight: bold;
     float: left;
@@ -64,17 +64,6 @@ img {
     text-align: center;
 }
 
-figcaption {
-    font-size: 12px;
-    font-weight: bold;
-    text-align: center;
-}
-/*
-#xbee, #arduino, #quadcopter {
-    float: left;
-    border: none;
-}
-*/
 #xbee {
     border: none;
 }
