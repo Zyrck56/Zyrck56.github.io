@@ -21,6 +21,7 @@ and open the template in the editor.
 
 h2 {
     padding-top: 40px;
+    line-height: 1.4em;
 }
 
 a {
@@ -28,7 +29,7 @@ a {
 }
 
 body {
-    min-width: 950px;
+    min-width: 600px;
     width: auto !important;
-    width: 950px;
+    width: 600px;
 }
