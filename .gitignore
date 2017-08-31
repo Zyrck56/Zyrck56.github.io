@@ -1,3 +1,4 @@
 nbproject/
 CNAME
 .well-known/
+*.pem
