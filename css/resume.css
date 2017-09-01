@@ -19,9 +19,11 @@ and open the template in the editor.
     text-decoration: underline;
 }
 
-object {
+object, iframe {
+    display: block;
+    margin: 0 auto;
     padding-top: 40px;
-    width: 900px;
+    width: 800px;
     height: 850px;
 }
 
